@@ -12,7 +12,7 @@ import (
 const (
 	dbUser     = "root"
 	dbPassword = "demo"
-	dbHost     = "petclinic-db.default.svc.cluster.local"
+	dbHost     = "petclinic-db.petclinic.svc.cluster.local"
 	dbName     = "petclinic"
 
 	query = `select first_name, last_name, city, name
